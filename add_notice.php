@@ -1,13 +1,15 @@
-<?php
-        if($_SERVER['REQUEST_METHOD'] == 'POST')
+ <?php
+        $notices = file_exists('notices.txt') ? file('notices.txt', FILE_IGNORE_NEW_LINES) : [];
+        
+        foreach ($notices as $index => $notice) 
         {
-        if (isset($_POST['submit'])) {
-            $title = $_POST['title'];
-            $content = $_POST['content'];
-          
+            [$title, $content] = explode(': ', $notice, 2);	
 
-            file_put_contents('notices.txt', "$title: $content" . PHP_EOL, FILE_APPEND);
-           // echo '<script>alert("Notice Added Successfully...!!!");</script>';
+            echo "<div class='notice'>";
+            echo date("Y-m-d H:i:s");
+            echo "<h2>$title</h2>";
+            echo "<p>$content</p>";
+            echo "<a href='view_notice.php?index=$index'></a>";
+            echo "</div>";
         }
-    }
         ?>
