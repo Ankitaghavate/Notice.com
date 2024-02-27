@@ -1,4 +1,3 @@
-<<<<<<< HEAD:index.php
 <!DOCTYPE html>
 <html>
 <head>
@@ -78,56 +77,34 @@
           
 
             file_put_contents('notices.txt', "$title: $content" . PHP_EOL, FILE_APPEND);
-           // echo '<script>alert("Notice Added Successfully...!!!");</script>';
+            echo '<script>alert("Notice Added Successfully...!!!");</script>';
         }
-    }
+
+		 $title=$_POST['title'];
+       		 $content=$_POST['content'];
+       		 $c_date=date("Y-m-d");
+
+		//connection
+		$servername="localhost";
+		$username="root";
+		$password="";
+		$database="ankita";
+
+		//create a connection
+		$conn=mysqli_connect($servername,$username,$password,$database);
+		$sql="INSERT INTO `notice`(`Title`, `Content`, `Date`) VALUES ('$title','$content','$c_date')";
+		$result=mysqli_query($conn,$sql);
+		if($result)
+		{
+			echo '<script>alert("Data inserted Successfully..!!");</script>';
+		}
+		else
+		{
+			echo '<script>alert("Error");</script>';
+		}
+	}
         ?>
     </div>
 </body>
 </html>
 
-=======
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Online Notice Board - View Notices</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .notice {
-            margin-bottom: 20px;
-        }
-
-        h1, h2 {
-            color: #333;
-        }
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Notices</h1>
-    </div>
-</body>
-</html>
-
-	 
->>>>>>> dd07eae9891b51c7a74768bf5400c817aad9e0fd:index.html
