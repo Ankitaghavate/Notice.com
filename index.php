@@ -85,10 +85,10 @@
        		 $c_date=date("Y-m-d");
 
 		//connection
-		$servername="localhost";
-		$username="root";
+		$servername="servername";
+		$username="username";
 		$password="";
-		$database="ankita";
+		$database="password";
 
 		//create a connection
 		$conn=mysqli_connect($servername,$username,$password,$database);
