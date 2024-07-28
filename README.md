@@ -1,1 +1,1 @@
-Online Notice Board\n
+Online Notice Board
