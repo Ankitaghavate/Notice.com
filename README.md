@@ -1,5 +1,5 @@
 Online Notice Board
-# Online Notice Board
+# Online Notice Board🔔
 
 Welcome to the Online Notice Board project! This project allows users to add and view notices with the current date and time. It is built using HTML, CSS, PHP, and JavaScript.
 
@@ -47,4 +47,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 <h2>Contact</h2><br>
 For any questions or feedback, please reach out to ghavateankita@gmail.com
 
-<h1>Happy coding!</h1>
+<h1>Happy coding!💫</h1>
