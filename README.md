@@ -21,7 +21,7 @@ To get started with the project, follow these steps:
 
 1. **Clone the Repository:**<br>
   
-   git clone https://github.com/yourusername/online-notice-board.git
+git clone https://github.com/yourusername/online-notice-board.git
 Navigate to the Project Directory:<br>
 
 cd online-notice-board
@@ -46,6 +46,6 @@ License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 Contact
-For any questions or feedback, please reach out to your.email@example.com.
+For any questions or feedback, please reach out to ghavateankita@gmail.com
 
-Happy coding!
+<h2>Happy coding!</h2>
