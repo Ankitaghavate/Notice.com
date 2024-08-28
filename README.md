@@ -41,7 +41,7 @@ All added notices will be displayed with their respective date and time.
 </h4><br>
 <h2>License</h2><br>
 This project is licensed under the MIT License. See the LICENSE file for details.
-<h2>Contact</h2><br>
+<h2>Contact</h2>
 For any questions or feedback, please reach out to ghavateankita@gmail.com
 
 <h1>Happy coding!💫</h1>
