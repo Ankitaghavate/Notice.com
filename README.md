@@ -19,17 +19,17 @@ Welcome to the Online Notice Board project! This project allows users to add and
 
 To get started with the project, follow these steps:
 
-1. **Clone the Repository:**<br>
+<h2>**Clone the Repository:**<br></h2>
   
 git clone https://github.com/Ankitaghavate/Notice.com.git
-Navigate to the Project Directory:<br>
+<h2>Navigate to the Project Directory:<br></h2>
 
 cd online-notice-board
-Set Up the Server:<br> Make sure you have a local server environment like XAMPP or WAMP installed. Place the project folder in the server's root directory (e.g., htdocs for XAMPP).
+<h2>Set Up the Server:</h2><br> Make sure you have a local server environment like XAMPP or WAMP installed. Place the project folder in the server's root directory (e.g., htdocs for XAMPP).
 
-Configure Database:<br> Create a MySQL database and import the provided SQL file (if available) to set up the necessary tables.
+<h2>Configure Database:</h2><br> Create a MySQL database and import the provided SQL file (if available) to set up the necessary tables.
 
-Run the Application:<br> Open your web browser and navigate to http://localhost/Notice to start using the application.
+<h2>Run the Application:</h2><br> Open your web browser and navigate to http://localhost/Notice to start using the application.
 
 <h2>Usage</h2>
 <h4>Adding a Notice
@@ -39,13 +39,12 @@ Click "Submit" to add the notice. The notice will be saved with the current date
 Viewing Notices
 Navigate to the "View Notices" page.<br>
 All added notices will be displayed with their respective date and time.
-Contributing
-If you would like to contribute to this project, please fork the repository and submit a pull request with your changes.</h4>
+</h4><br>
 
-License
+<h2>License</h2><br>
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Contact
+<h2>Contact</h2><br>
 For any questions or feedback, please reach out to ghavateankita@gmail.com
 
-<h2>Happy coding!</h2>
+<h1>Happy coding!</h1>
