@@ -39,8 +39,7 @@ Viewing Notices
 Navigate to the "View Notices" page.
 All added notices will be displayed with their respective date and time.
 </h4>
-<h2>License</h2>
-This project is licensed under the MIT License. See the LICENSE file for details.
+
 <h2>Contact</h2>
 For any questions or feedback, please reach out to ghavateankita@gmail.com
 
